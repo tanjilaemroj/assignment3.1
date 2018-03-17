@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #1D2120;
+    margin: 0 auto;
+    min-height: 100px;
+    padding: 0 40px;
+}
+.logo{
+    width: 20%;
+    margin: 0 auto;
+    float: left;
+}
+.logo h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+.logo p{
+    font-weight: bold;
+    font-size: 17px;
+    color: #9A9A9A;
+    padding-left: 18px;
+}
+.manu_bar{
+    width: 70%;
+    float: right;
+    border: 1px solid #9A9A9A;
+    margin-top: 22px;
+    border-radius: 25px;
+}
+.manu_bar ul{
+    list-style: none
+}
+.manu_bar ul li{
+    float: left;
+}
+.manu_bar ul li a{
+    text-decoration: none;
+    color: #9A9A9A;
+    padding: 15px 53px;
+    display: block;
+    font-size: 20px;
+    transition: 1s;
+}
+.manu_bar ul li a:hover{
+    color: #CFDA8E;
+}
+.slider {
+    overflow: hidden;
+    background-color: gray;
+    min-height: 400px;
+}
+
+.slider_image {
+    float: left;
+    width: 35%;
+    margin-left: 30px;
+}
+.slider_image img{
+    border: 11px solid white;
+    width: 100%;
+    margin: 22px 0;
+}
+
+.slider_content {
+    float: right;
+    width: 50%;
+}
+.slider_content h1{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+.slider_content p{
+      font-weight: bold;
+    font-size: 25px;
+    color: #77776E;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.slider_content button{
+    padding: 7px 15px;
+    background-color: yellow;
+    border-radius: 5px;
+    margin: 18px 0;
+}
+
+.content {
+    min-height: 600px;
+    overflow: hidden;
+}
+
+.main_contant {
+    width: 50%;
+    float: left;
+    margin-left: 5%;
+}
+.main_content_title{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.main_content_para1{
+    font-size: 20px;
+    margin: 40px 0;
+}
+.main_content_para2{
+    padding-left: 5%;
+}
+.main_content_para3{
+    margin-top: 20px;
+    padding-left: 5%;
+}
+
+.right_sidebar {
+    float: right;
+    width: 40%;
+    overflow: hidden;
+}
+
+.title {
+    background-color: black;
+    color: white;
+    min-height: 50px;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+
+
+.right_sidebar_contant {
+    overflow: hidden;
+}
+
+.right_sidebar_image {
+    width: 30%;
+    float: left;
+    
+}
+
+.right_sidebar_image img{
+    width: 100%;
+    
+}
+.right_sidebar_text {
+    width: 60%;
+    float: right;
+}
+
+.footer {
+}
+
+.left_footer {
+}
